@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GiKnifeFork } from "react-icons/gi"; // Ingredient icon
+import { GiKnifeFork } from "react-icons/gi"; 
 import './index.css';
 
 function Dishcard({ dish, isSelected, onAddDish, onRemoveDish, onViewIngredients }) {
